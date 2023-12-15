@@ -51,3 +51,22 @@ background-color: #6feaf6;
 .seat.occupied{
     background-color: white;
 }
+
+.seat:nth-of-type(2){
+    margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2){
+    margin-left: 18px;
+}
+
+.seat:not(.occupied):hover{
+   transform: scale(1.2);
+   cursor: pointer;
+ 
+}
+
+.showcase .seat:not(.occupied):hover{
+    cursor: none;
+    transform: scale(1);
+}
