@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
     background-color: #242333;
     display: flex;
     flex-direction: column;
@@ -28,4 +28,26 @@ border-top-left-radius: 10px;
 
 .row{
     display: flex;
+}
+
+.movie-container{
+    margin: 24px 0px;
+}
+
+.movie-container select{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 5px 15px 5px 15px;
+    
+}
+
+.seat.selected{
+background-color: #6feaf6;
+
+}
+
+.seat.occupied{
+    background-color: white;
 }
