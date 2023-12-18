@@ -9,6 +9,7 @@ const movieSelect= document.getElementById('movie');
 let ticketPrice= +movieSelect.value;
 
 
-container.addEventListener('click', (e) => {
+
+Container.addEventListener('click', (e) => {
 console.log(e.target);
 });
