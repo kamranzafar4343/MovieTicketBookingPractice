@@ -70,3 +70,45 @@ background-color: #6feaf6;
     cursor: none;
     transform: scale(1);
 }
+
+.showcase{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.showcase li small{
+    margin-left: 10px;
+}
+
+.screen{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    margin: 15px 0px;
+    transform: rotateX(-45deg);
+    box-shadow: 0px 3px 10px rgba(275, 275, 275, 0.75);
+}
+ .container{
+    perspective: 1000px;
+    margin-bottom: 30px;
+ }
+
+ p.text{
+    margin: 5px 0px;
+ }
+
+ p.text span{
+    color: #6feaf6;
+ }

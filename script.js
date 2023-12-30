@@ -9,5 +9,6 @@ const movieSelect= document.getElementById('movie');
 let ticketPrice= +movieSelect.value;
 
 container.addEventListener('click', (e) => {
-console.log(e.target);
+if(e.target.classList.contains('seat') && !e.target.classList.contains('occupied') )
+    console.log(e.target);
 });
